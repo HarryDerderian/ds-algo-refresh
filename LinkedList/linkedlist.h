@@ -34,8 +34,10 @@ public:
     void remove(T data);
 
 private:
-    node<T> *head;
-    node<T> *tail;
-    int size;
+    node<T> *head = nullptr;
+    node<T> *tail = nullptr;
+    int size = 0;
 };
+#include "LinkedList.cpp"
+
 #endif
