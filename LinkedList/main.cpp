@@ -4,7 +4,7 @@
 // using namespace std;
 int main()
 {
-    LinkedList<int> *list = new LinkedList<int>;
+    LinkedList<int> *list = new LinkedList<int>();
 
     // add 10 items
     for (int i = 0; i < 10; ++i)
