@@ -9,7 +9,7 @@ public:
 
     void push(const T &value);
 
-    T &peek();
+    T &peek() const;
 
     T &pop();
 
