@@ -6,10 +6,10 @@ class Stack
 {
 public:
     Stack();
-
+    ~Stack();
     void push(const T &value);
 
-    T &peek() const;
+    T &peek();
 
     T &pop();
 
@@ -21,7 +21,6 @@ public:
 
 private:
     void resize();
-
     int arraySize;
     T *array;
     int topIndex;
